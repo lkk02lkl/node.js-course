@@ -1,10 +1,10 @@
 {
   "name": "node.js-course",
   "version": "1.0.0",
-  "main": "third.js",
+  "main": "five.js",
   "scripts": {
-    "start": "node third",
-    "dev": "nodemon third"
+    "start": "node five",
+    "dev": "nodemon five"
   },
   "author": "",
   "license": "ISC",
