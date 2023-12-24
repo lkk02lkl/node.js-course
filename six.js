@@ -26,7 +26,6 @@ app.get('/hello(.html)?', (req, res, next) => {
 
 
 app.get('/*', (req, res) => {
-  //res.sendFile('./views/index.html', { root: __dirname });
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
 
